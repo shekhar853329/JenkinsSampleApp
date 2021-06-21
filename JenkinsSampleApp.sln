@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsSampleApp", "JenkinsSampleApp\JenkinsSampleApp.csproj", "{F6383FB8-D027-4C96-B9A7-63D4A8F48785}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6C41E0D0-B31C-47D5-A011-E39C24704B52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6383FB8-D027-4C96-B9A7-63D4A8F48785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6383FB8-D027-4C96-B9A7-63D4A8F48785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6383FB8-D027-4C96-B9A7-63D4A8F48785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6383FB8-D027-4C96-B9A7-63D4A8F48785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C41E0D0-B31C-47D5-A011-E39C24704B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C41E0D0-B31C-47D5-A011-E39C24704B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C41E0D0-B31C-47D5-A011-E39C24704B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C41E0D0-B31C-47D5-A011-E39C24704B52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {140D3F24-1A41-4426-88A2-507D46F340CA}
+	EndGlobalSection
+EndGlobal
